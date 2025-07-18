@@ -1,13 +1,21 @@
 {
   "expo": {
-    "name": "Classic Media Player",
+    "name": "مشغل الوسائط الكلاسيكي",
     "slug": "classic-media-player",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "classicmediaplayer",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A202C"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "package": "com.classicmediaplayer.app",
       "versionCode": 1,
